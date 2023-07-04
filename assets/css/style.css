@@ -1,0 +1,39 @@
+:root{
+    --color-Master: #845DB2;
+    --color-Secondary:#855db2e0;
+}
+
+.logo {
+    color: var(--color-Master);
+    font-family: 'Righteous', cursive;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+.icons {
+    /* margin: .5em 0 .5rem 0; */
+    font-size: 1.2rem;
+    letter-spacing: 1rem;
+    text-align: center;
+}
+
+.mycolor {
+    background-color: var(--color-Master);
+    border: none;
+}
+
+.mycolor:hover {
+    background-color: var(--color-Secondary);
+}
+
+.fa-brands {
+    color: var(--color-Master);
+}
+
+.fa-brands:hover {
+    color: var(--color-Secondary);
+}
+
+.myfont {
+    font-family: 'Figtree', sans-serif;
+}
